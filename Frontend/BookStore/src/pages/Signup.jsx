@@ -30,7 +30,7 @@ const Signup = () => {
         }
 
         try {
-            const url = "http://localhost:3001/auth/signup";
+            const url = 'https://bookstoreproject-imm7.onrender.com/auth/signup';
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
