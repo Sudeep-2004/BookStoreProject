@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const connecttoDB = async () => {
     try{
-        await mongoose.connect('mongodb://localhost:27017/BookStoreAPI')
+        await mongoose.connect('mongodb+srv://sathisudeep4:sathisudeep5@cluster0.whp4eue.mongodb.net/')
         console.log('MongoDb is connected successfully')
 
     }catch(e){
