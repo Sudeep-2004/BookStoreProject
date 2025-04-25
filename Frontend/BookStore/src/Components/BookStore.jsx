@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { handleError, handleSuccess } from "../utils";
 
-const API_BASE = "http://localhost:3001/api/books";
+const API_BASE = "https://bookstoreproject-imm7.onrender.com/api/books";
 
 const BookStore = ({ uploadMode = false }) => {
   const [books, setBooks] = useState([]);
